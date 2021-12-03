@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="LAE" id="id-48fb3807bfa249a9bae607b6a92cc390" version="4.6.0">
+  <folder name="Strategy" id="id-510e0a8218194ecf9ee0aa632309321b" type="strategy"/>
+  <folder name="Business" id="id-785bc966835f4d30b7c2c6ca6c3ac249" type="business">
+    <element xsi:type="archimate:BusinessActor" name="Opérateur (Service Client)" id="id-ea63bc2a6c1a4813a3228e065a856802"/>
+    <element xsi:type="archimate:BusinessActor" name="Vendeur" id="id-f407507a9a664adca56fa53d51186b4d"/>
+    <element xsi:type="archimate:BusinessActor" name="Commercial" id="id-a077349feda8451ca3ceb3f85ec5a24d"/>
+    <element xsi:type="archimate:BusinessActor" name="Assitant Comptable" id="id-c3add5029d384f06971fc1ebbc20820f"/>
+    <element xsi:type="archimate:BusinessActor" name="Comptable" id="id-054503b05e3640a095663713605a6a22"/>
+    <element xsi:type="archimate:BusinessActor" name="Juriste" id="id-f5556ba4d9ee407495f2b407ff19fcc0"/>
+    <element xsi:type="archimate:BusinessActor" name="Enquêteur" id="id-000bf1e652c04d36b7073c0ef75d33bd"/>
+    <element xsi:type="archimate:BusinessActor" name="Estimateur" id="id-9d0df8df018e45ed9911b396f4f803a2"/>
+    <element xsi:type="archimate:BusinessActor" name="Lead Vente" id="id-c1e23937bf244e7ba0a63dba62199338"/>
+    <element xsi:type="archimate:BusinessActor" name="Lead Service-Client" id="id-77e31926f9b74a7da3ce828d9f7b5d8c"/>
+    <element xsi:type="archimate:BusinessActor" name="Lead Facturation" id="id-04070efd1fd7468891d99a7799ae6c33"/>
+    <element xsi:type="archimate:BusinessActor" name="Lead Légal" id="id-08b889d56d5a4e18a6bc0d247579da2c"/>
+  </folder>
+  <folder name="Application" id="id-dbeac3cbbde94ea0bbe92cb866cd0cb2" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-fbddeebcb7f541c7bb30c0187b8eaf42" type="technology"/>
+  <folder name="Motivation" id="id-888dd9894a1d4cc781cf219dbc606d19" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-43a71e21dd7f4f50bcd48bb3c01f3d90" type="implementation_migration"/>
+  <folder name="Other" id="id-c379326427f84a29b92b9b161c5f7ad1" type="other"/>
+  <folder name="Relations" id="id-655e3cb7825246cba01dc39b4d9f2b36" type="relations"/>
+  <folder name="Views" id="id-fd55225efcc244209aeb503ad78011e5" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-1ed9510cafba453787ea5a269dacff6c"/>
+  </folder>
+</archimate:model>
