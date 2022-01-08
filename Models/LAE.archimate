@@ -138,6 +138,7 @@
     </folder>
     <element xsi:type="archimate:BusinessProcess" name="Vérifier le bon fonctionnement de la sauvegarde" id="id-337c775d7f84419a852b0efdca7bdc4e"/>
     <element xsi:type="archimate:BusinessProcess" name="Valider la bonne restauration des données sur un environnement de test" id="id-1c13c535ba3147dd8186fc5e1352af67"/>
+    <element xsi:type="archimate:BusinessActor" name="Collaborateur LAE" id="id-b31c0cc78197480e8b015eb61b461208"/>
   </folder>
   <folder name="Application" id="id-dbeac3cbbde94ea0bbe92cb866cd0cb2" type="application">
     <folder name="Prototype" id="id-96f2734eedf748489b80a99e355f71ac">
@@ -510,6 +511,7 @@
     <element xsi:type="archimate:TriggeringRelationship" id="id-061d185539dd499e898d497663031441" source="id-03eca15b8c65439399cee2acd55a98aa" target="id-00bd8c49b5a5434ca5efd76daf2d2ffa"/>
     <element xsi:type="archimate:ServingRelationship" id="id-fd919ab614784fada7deb20bd4c0a204" source="id-c7b6e24e3e2e477cb36f6143602f6b9d" target="id-00bd8c49b5a5434ca5efd76daf2d2ffa"/>
     <element xsi:type="archimate:ServingRelationship" id="id-32ecdf195ec34f5187c67d6c2bd3c1ae" source="id-c7b6e24e3e2e477cb36f6143602f6b9d" target="id-1fbfd8f143134512bb72510e4fae2c83"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-f761555829dc4378b078712c9246d419" source="id-de39afa3af7d4710bd9e6551c08ce633" target="id-b31c0cc78197480e8b015eb61b461208"/>
   </folder>
   <folder name="Views" id="id-fd55225efcc244209aeb503ad78011e5" type="diagrams">
     <folder name="Baseline Architecture" id="id-e4ce96e4e7df4f8ab50879891d27df8a">
@@ -1802,6 +1804,135 @@
             <sourceConnection xsi:type="archimate:Connection" id="id-1c5b5dfa1f4645dc9e4d0f2955bae2f3" source="id-c60490935330476e8da853457032dd0f" target="id-740ea89638d64ae5bed663062bba7b4c" archimateRelationship="id-b2ab5219780b48fc8d723bf4d3c45cf1">
               <bendpoint startX="-99" startY="-11" endX="169" endY="57"/>
             </sourceConnection>
+          </child>
+        </element>
+        <element xsi:type="archimate:ArchimateDiagramModel" name="ATA - Diagramme de bénéfices" id="id-a7465fb1527c428f812fc55d60a1489f">
+          <child xsi:type="archimate:Note" id="id-9b85bf08524042659ceae5eb2a295c05" font="1|Segoe UI Semibold|14.25|0|WINDOWS|1|-19|0|0|0|600|0|0|0|0|3|2|1|34|Segoe UI Semibold" textPosition="1" borderType="2">
+            <bounds x="276" y="360" width="769" height="48"/>
+            <content>Application - Target Architecture</content>
+          </child>
+          <child xsi:type="archimate:Note" id="id-35516ec462ba41c8bafacc79dc0dd5aa" font="1|Segoe UI|12.75|2|WINDOWS|1|-17|0|0|0|400|-1|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+            <bounds x="276" y="396" width="769" height="48"/>
+            <content>Diagramme de bénéfices</content>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-474d44b681614bbc8941b9dfef5ea566" targetConnections="id-c66078ec7ffc40b2826f7440640af7d1 id-df896eef25004463b84d162f8dc65613 id-43638358ee4c4853903fcadac634a6a5" fillColor="#42ffff" textPosition="1" archimateElement="id-811bf2a42445440c846eecbb2343c750">
+            <bounds x="450" y="755" width="272" height="49"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-d3332a24bbb746ba9f287a76fe2e6727" source="id-474d44b681614bbc8941b9dfef5ea566" target="id-23f3dfbfc3ec4df183d63a1f6f8601d9" archimateRelationship="id-40cefed7f50e404e8c8fc4ec57e54292"/>
+            <sourceConnection id="id-de22285b67e943fcac6c4bcdcc51dc49" source="id-474d44b681614bbc8941b9dfef5ea566" target="id-145941b30f1141a9b7feaf004c872014"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-c5635b32caad41fbb0b30d0593924440" targetConnections="id-89e311ce657141279b9e965e69023860 id-dc166fa7bf064cf782b758ef6c4210b7 id-30cbe2f7559f4b1c8a3bc806e950d267" fillColor="#42ffff" textPosition="1" archimateElement="id-c7b6e24e3e2e477cb36f6143602f6b9d">
+            <bounds x="451" y="668" width="269" height="49"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-bec0182f3861400ca872cfe03737c055" targetConnections="id-bae3c2ba2d7f4ce6b45cb59ee3cdb0d8" fillColor="#ceffff" textPosition="1" archimateElement="id-ec3b9939665a44568cfa4595d34b9ac2">
+            <bounds x="794" y="665" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-89e311ce657141279b9e965e69023860" source="id-bec0182f3861400ca872cfe03737c055" target="id-c5635b32caad41fbb0b30d0593924440" archimateRelationship="id-83e3707047294c2e8c8acedef229bf88"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-7ff86f3b3d0a4359a178a14861dc0e00" targetConnections="id-f23b3b5e65884aa78693016de2d1a7b3" fillColor="#ceffff" textPosition="1" archimateElement="id-4899bfe1b83e4ed0ac1d2c5e7ea54280">
+            <bounds x="794" y="744" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-c66078ec7ffc40b2826f7440640af7d1" source="id-7ff86f3b3d0a4359a178a14861dc0e00" target="id-474d44b681614bbc8941b9dfef5ea566" archimateRelationship="id-f072637bb02b425cb6edd135a70569e7"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-dc166fa7bf064cf782b758ef6c4210b7" source="id-7ff86f3b3d0a4359a178a14861dc0e00" target="id-c5635b32caad41fbb0b30d0593924440" archimateRelationship="id-15ea5b0fc34443249ba3ae0db854b838"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-7a8a5ef2e350436c81e97bf053edf4a6" targetConnections="id-2ef1e4d57a634957866c5c4554b2de95" fillColor="#ceffff" textPosition="1" archimateElement="id-672fe82f264d4409819674859294508f">
+            <bounds x="782" y="884" width="132" height="49"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-8c5e3634f7dc42f59f56c9858d312d21" source="id-7a8a5ef2e350436c81e97bf053edf4a6" target="id-23f3dfbfc3ec4df183d63a1f6f8601d9" archimateRelationship="id-1a930a662a774ead8208042d4c470530"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-df896eef25004463b84d162f8dc65613" source="id-7a8a5ef2e350436c81e97bf053edf4a6" target="id-474d44b681614bbc8941b9dfef5ea566" archimateRelationship="id-2ea5cb95c51e4d569a393fa0dbfb1622">
+              <bendpoint startX="-153" startY="-60" endX="109" endY="69"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-9771ecc97978435aaaaa29706d23aa1e" targetConnections="id-3c2ab16ea9de4c6fbc2ef51c8e90149b id-86250488bbdf4a88906bc46fcd46a6fb" fillColor="#ceffff" textPosition="1" archimateElement="id-de39afa3af7d4710bd9e6551c08ce633">
+            <bounds x="456" y="581" width="266" height="52"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-18884e68fc9348fb8b6a8a06e4ccf269" source="id-9771ecc97978435aaaaa29706d23aa1e" target="id-fb0dab53d2234c20b82672aec1eafdc1" archimateRelationship="id-f761555829dc4378b078712c9246d419"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-db791c1d29f14a21aea36f557da0f786" targetConnections="id-2db706f15719459b9fb1a2855b20c072" fillColor="#ceffff" textPosition="1" archimateElement="id-cea1d2526b8448e68bbc15cf42e17185">
+            <bounds x="788" y="579" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-3c2ab16ea9de4c6fbc2ef51c8e90149b" source="id-db791c1d29f14a21aea36f557da0f786" target="id-9771ecc97978435aaaaa29706d23aa1e" archimateRelationship="id-2159d2d7f109445193e3b628733c8229"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-965ebafc6bda43aaa74341932583146a" targetConnections="id-18c18a64d50c4908b29fc6a21b193ed4" textPosition="1" archimateElement="id-d97e3cfee4164dfa86120eefb5783894">
+            <bounds x="794" y="815" width="120" height="46"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-43638358ee4c4853903fcadac634a6a5" source="id-965ebafc6bda43aaa74341932583146a" target="id-474d44b681614bbc8941b9dfef5ea566" archimateRelationship="id-b2ab5219780b48fc8d723bf4d3c45cf1">
+              <bendpoint startX="-99" startY="-11" endX="169" endY="57"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-18f6c23a9c7541e0aea11a635827d0ea" textPosition="2" archimateElement="id-caa60d39520f4fd1b7b4d99609bc523a">
+            <bounds x="456" y="860" width="209" height="73"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-d0bd9209ddf24a8eafd7f677b9b8ecb6" source="id-18f6c23a9c7541e0aea11a635827d0ea" target="id-23f3dfbfc3ec4df183d63a1f6f8601d9" archimateRelationship="id-0f0a5af32705438e85354ac91c788a95"/>
+            <sourceConnection id="id-3f73ed7495604d438f99945c1e9592ec" source="id-18f6c23a9c7541e0aea11a635827d0ea" target="id-93812b7ed3474793b6dd842122de0618"/>
+            <child xsi:type="archimate:DiagramObject" id="id-23f3dfbfc3ec4df183d63a1f6f8601d9" targetConnections="id-d0bd9209ddf24a8eafd7f677b9b8ecb6 id-8c5e3634f7dc42f59f56c9858d312d21 id-d3332a24bbb746ba9f287a76fe2e6727" archimateElement="id-5a6442cf8f3345399df5a4edf9a689bb">
+              <bounds x="60" y="12" width="90" height="37"/>
+            </child>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-fb0dab53d2234c20b82672aec1eafdc1" targetConnections="id-18884e68fc9348fb8b6a8a06e4ccf269" archimateElement="id-b31c0cc78197480e8b015eb61b461208">
+            <bounds x="540" y="492" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:Note" id="id-7961f425a3764f6d92e72ab2535fa6bd" textAlignment="1" fillColor="#f5f5f5">
+            <bounds x="958" y="445" width="243" height="84"/>
+            <sourceConnection id="id-2db706f15719459b9fb1a2855b20c072" source="id-7961f425a3764f6d92e72ab2535fa6bd" target="id-db791c1d29f14a21aea36f557da0f786"/>
+            <content>Ce composant permet d'améliorer fortement la sécurité de l'application web.&#xD;
+&#xD;
+Développement : Très faible&#xD;
+Compléxité : Faible</content>
+          </child>
+          <child xsi:type="archimate:Note" id="id-28265a6b1b73450b86cef72da5940a41" textAlignment="1" fillColor="#f5f5f5">
+            <bounds x="168" y="480" width="243" height="120"/>
+            <sourceConnection id="id-86250488bbdf4a88906bc46fcd46a6fb" source="id-28265a6b1b73450b86cef72da5940a41" target="id-9771ecc97978435aaaaa29706d23aa1e"/>
+            <content>Le load balancer fourni une méthode simple pour garantir la continuité de service et améliorer les performances générale de la Webapp&#xD;
+&#xD;
+Développement : Très faible&#xD;
+Compléxité : Faible</content>
+          </child>
+          <child xsi:type="archimate:Note" id="id-812044ffeca2425a892d754705686e7b" textAlignment="1" fillColor="#f5f5f5">
+            <bounds x="958" y="540" width="243" height="121"/>
+            <sourceConnection id="id-bae3c2ba2d7f4ce6b45cb59ee3cdb0d8" source="id-812044ffeca2425a892d754705686e7b" target="id-bec0182f3861400ca872cfe03737c055"/>
+            <content>Fourni un point d'entré standardisé pour l'authentification et la gestion des droits d'accès. Indispensable à la sécurité de l'application.&#xD;
+&#xD;
+Développement : Très faible&#xD;
+Compléxité : Moyenne</content>
+          </child>
+          <child xsi:type="archimate:Note" id="id-7ab18966fd944cdfbd1384f169584e82" textAlignment="1" fillColor="#f5f5f5">
+            <bounds x="958" y="668" width="243" height="113"/>
+            <sourceConnection id="id-f23b3b5e65884aa78693016de2d1a7b3" source="id-7ab18966fd944cdfbd1384f169584e82" target="id-7ff86f3b3d0a4359a178a14861dc0e00"/>
+            <content>Remplit les capacités habituelles des composant de fédération d'API (versionning, contrôle d'accès, url virtuelles etc.) Améliore grandement l'évolutivité.&#xD;
+&#xD;
+Développement : Très faible&#xD;
+Compléxité : Faible</content>
+          </child>
+          <child xsi:type="archimate:Note" id="id-9a809608fb27493c9a538a4fa5f0eb92" textAlignment="1" fillColor="#f5f5f5">
+            <bounds x="958" y="798" width="243" height="113"/>
+            <sourceConnection id="id-18c18a64d50c4908b29fc6a21b193ed4" source="id-9a809608fb27493c9a538a4fa5f0eb92" target="id-965ebafc6bda43aaa74341932583146a"/>
+            <content>Stockage sécurisé de fichier volumineux. Indispensable pour assurer une disponibilité totale de l'information et simplifier les accès.&#xD;
+&#xD;
+Développement : Très faible&#xD;
+Compléxité : Très Faible</content>
+          </child>
+          <child xsi:type="archimate:Note" id="id-84ec340d7f774284b4a2518684be6572" textAlignment="1" fillColor="#f5f5f5">
+            <bounds x="958" y="932" width="243" height="101"/>
+            <sourceConnection id="id-2ef1e4d57a634957866c5c4554b2de95" source="id-84ec340d7f774284b4a2518684be6572" target="id-7a8a5ef2e350436c81e97bf053edf4a6"/>
+            <content>Cache applicatif à haute vélocité. Améliore grandement les performances des applications.&#xD;
+&#xD;
+Développement : Très faible&#xD;
+Compléxité : Très Faible</content>
+          </child>
+          <child xsi:type="archimate:Note" id="id-93812b7ed3474793b6dd842122de0618" targetConnections="id-3f73ed7495604d438f99945c1e9592ec" textAlignment="1" fillColor="#f5f5f5">
+            <bounds x="168" y="858" width="243" height="115"/>
+            <content>Base de données serverless. Dispose des fonctions de sauvegarde automatique. Garanti la disponibilité et la sécurité des données.&#xD;
+&#xD;
+Développement : Moyen&#xD;
+Compléxité : Moyenne</content>
+          </child>
+          <child xsi:type="archimate:Note" id="id-145941b30f1141a9b7feaf004c872014" targetConnections="id-de22285b67e943fcac6c4bcdcc51dc49" textAlignment="1" fillColor="#f5f5f5">
+            <bounds x="168" y="744" width="243" height="84"/>
+            <content>Couche de service (RESTFul) de l'entreprise. Indispensable pour la refonte.&#xD;
+&#xD;
+Développement : Important&#xD;
+Compléxité : Forte</content>
+          </child>
+          <child xsi:type="archimate:Note" id="id-d08e1882b8ab41bd8fb9bad63c9e1e91" textAlignment="1" fillColor="#f5f5f5">
+            <bounds x="168" y="625" width="243" height="92"/>
+            <sourceConnection id="id-30cbe2f7559f4b1c8a3bc806e950d267" source="id-d08e1882b8ab41bd8fb9bad63c9e1e91" target="id-c5635b32caad41fbb0b30d0593924440"/>
+            <content>Web App principale. Basé sur la WebApp déjà existante. Nécessaire à la refonte.&#xD;
+&#xD;
+Développement : Important&#xD;
+Compléxité : Faible</content>
           </child>
         </element>
       </folder>
